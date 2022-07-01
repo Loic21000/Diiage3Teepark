@@ -164,8 +164,7 @@ server {
 EOF
 }
 
-sudo certbot --nginx -d app2.teepark.fr
-
+sudo certbot --nginx -d app.teepark.fr -m loicpopulier@gmail.com --agree-tos -n
 
 
 sudo cp nginxconfig.conf nginxconfig.conf.bak
